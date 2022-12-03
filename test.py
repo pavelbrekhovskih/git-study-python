@@ -11,3 +11,15 @@ def sum_factorials(num):
 
 n = int(input("Введите число: "))
 print(sum_factorials(n))
+
+print("Задача 2. НОД")
+def gcd(a, b):
+    while a != 0 and b != 0:
+        if a > b:
+            a = a % b
+        else:
+            b = b % a
+    print('Наибольший общий делитель:', a + b)
+
+gcd (4782 , 698)
+print()
