@@ -1,3 +1,4 @@
+print('Факториал')
 def sum_factorials(num):
     part_factorial = 1
     summa = 0
@@ -6,6 +7,7 @@ def sum_factorials(num):
         part_factorial *= i
         summa += part_factorial
     return summa
+
 
 n = int(input("Введите число: "))
 print(sum_factorials(n))
